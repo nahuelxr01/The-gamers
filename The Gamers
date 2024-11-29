@@ -28,7 +28,7 @@
     
      <h2 id="subtitulo">Juegos en Scrach</h2>
      
-     <img src="/Users/AULA XXX-XX/Desktop/Scratch.png" alt="Escenario" height="480" width="560">
+     <img src="D:/IMAGEN WEB/Scratch.png" alt="Escenario" height="480" width="560">
      
      <p id="p">Este es el juego hecho en Scrach, trata de un gato que se encuentra en la selava y debe de esquivar libelulas gigantes, el objetivo del juego es aguantar lo mas que puedas sin perder toda la barra de vida</p>
      
@@ -36,7 +36,7 @@
         
      <h2 id="subtitulo">Juego de RPG Maker</h2>
  
-     <img src="/Users/AULA XXX-XX/Desktop/IMG-20241129-WA0054.jpg" alt="Escenario" height="480" width="560">  
+     <img src="D:/IMAGEN WEB/IMG-20241129-WA0054.jpg" alt="Escenario" height="480" width="560">  
     
      <p id="p">Este es el juego hecho en RPG Maker, trata de un ente que debe de derrotar a un mitico dragon en el ultimo nivel de la torre, este comienza el juego sin saber nada, y mientras va progresando debe de consegur el suficiente poder para no volver a la base de la torre y comenzar desde cero</p>
      
@@ -44,7 +44,7 @@
         
      <h2 id="subtitulo">Juego de Unity</h2>
     
-     <img src="/Users/AULA XXX-XX/Desktop/WhatsApp Image 2024-11-29 at 15.10.50.jpeg">
+     <img src="D:/IMAGEN WEB/WhatsApp Image 2024-11-29 at 15.10.50.jpeg">
      
      <p id="p">Este es el juego hecho en Unity, trata de un pequeño parkour en el que el jugador con un limite de tiempo debe de llegar a la cima saltando de plataforma en plataforma</p>     
     
