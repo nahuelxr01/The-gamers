@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Videojuegos</title>
+   <link rel="stylesheet" href="main.css">
+   <style>
+       body {
+            background-image: url('https://img.freepik.com/vector-gratis/fondo-acuarela_220290-34.jpg');
+            background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+        }
+ 
+       #titulo {
+            transition: color 0.3s; /* Transición suave */
+        }
+
+        #titulo:hover {
+            color: blue; /* Cambia a azul al pasar el mouse */
+        }
+   </style> 
+</head>
+<body id="Mi-Fondo">
+     <h1 id="titulo">The Gamers</h1>
+
+     <p id="p">Los creadores de estos fantásticos juegos son <a class="enlace" href="https://www.instagram.com/_users_mask_03/?hl=es-la" target="_blank">Matias</a>, Nahuel y Joel</p>
+    
+     <h2 id="subtitulo">Juegos en Scrach</h2>
+     
+     <img src="/Users/AULA XXX-XX/Desktop/Scratch.png" alt="Escenario" height="480" width="560">
+     
+     <p id="p">Este es el juego hecho en Scrach, trata de un gato que se encuentra en la selava y debe de esquivar libelulas gigantes, el objetivo del juego es aguantar lo mas que puedas sin perder toda la barra de vida</p>
+     
+     <li><a href="https://scratch.mit.edu/projects/1058804095/">Scrach Game</a></li>
+        
+     <h2 id="subtitulo">Juego de RPG Maker</h2>
+ 
+     <img src="/Users/AULA XXX-XX/Desktop/IMG-20241129-WA0054.jpg" alt="Escenario" height="480" width="560">  
+    
+     <p id="p">Este es el juego hecho en RPG Maker, trata de un ente que debe de derrotar a un mitico dragon en el ultimo nivel de la torre, este comienza el juego sin saber nada, y mientras va progresando debe de consegur el suficiente poder para no volver a la base de la torre y comenzar desde cero</p>
+     
+     <li><a href="https://drive.google.com/drive/folders/148qZYjN3Zm-TjC4O9TstXgOX9Bgfa6YY?usp=sharing">RPG Maker</a></li>
+        
+     <h2 id="subtitulo">Juego de Unity</h2>
+    
+     <img src="/Users/AULA XXX-XX/Desktop/WhatsApp Image 2024-11-29 at 15.10.50.jpeg">
+     
+     <p id="p">Este es el juego hecho en Unity, trata de un pequeño parkour en el que el jugador con un limite de tiempo debe de llegar a la cima saltando de plataforma en plataforma</p>     
+    
+     <li><a href="https://drive.google.com/drive/folders/1uBFDuTHgAedRHRdSfwrM_Am6o8vWhU2Y?usp=sharing">Escalera al cielo</a></li>
+    
+</body>
+</html>
