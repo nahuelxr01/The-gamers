@@ -1,0 +1,87 @@
+# Proyecto Cafecito NPC
+Proyecto de Diálogos NPC
+
+**Alumno:** Nahuel Rodriguez
+
+**Descripción:** Ejercicio práctico de Git con diálogos del NPC Cafecito para practicar branches, merges y resolución de conflictos.
+
+
+git add README.md
+git commit -m "Actualización de Readme"
+git push origin main
+
+
+Cafecito: ¡Hoye delincuente! ¿Ya probaste mi speed?
+Cafecito: Lo preparo con un secreto familiar.
+Cafecito: ¿Querés que te prepare uno? (SI/NO)
+
+
+git add dialogoNPC1.txt
+git commit -m "Creación del Diálogo base"
+git push origin main
+
+
+git checkout -b dialogo-option-si
+
+
+Cafecito: ¡Genial! Vas a ser adicto a mi speed muejejejeje.
+Cafecito: ten otro, vuelvete mi consumidor.
+
+
+git add dialogoNPC-SI.txt
+git commit -m "Dialogo opción SI"
+
+# Edita dialogoNPC1.txt agregando al final:
+# ["dialogoNPC-SI"]
+
+git add dialogoNPC1.txt
+git commit -m "Agregado de archivo opción SI al diálogo principal"
+git push origin dialogo-option-si
+
+
+git checkout main
+git checkout -b dialogo-option-no
+
+
+Cafecito: ¿En serio? ¡quieres probocar la furia de Cafecito deidad!
+Cafecito: Bueno, no me queda de otra que resetear el mundo.
+
+
+git add dialogoNPC-NO.txt
+git commit -m "Dialogo opción NO"
+
+# Edita dialogoNPC1.txt agregando al final:
+# ["dialogoNPC-NO"]
+
+git add dialogoNPC1.txt
+git commit -m "Agregado de archivo opción NO al diálogo principal"
+git push origin dialogo-option-no
+
+
+git checkout main
+git pull origin main
+
+
+git merge dialogo-option-si
+git push origin main
+
+
+git merge dialogo-option-no
+
+
+Cafecito: ¡Hoye delincuente! ¿Ya probaste mi speed?
+Cafecito: Lo preparo con un secreto familiar.
+Cafecito: ¿Querés que te prepare uno? (SI/NO)
+[ "dialogoNPC-SI" , "dialogoNPC-NO" ]
+
+
+git add dialogoNPC1.txt
+git commit -m "Resolución de conflicto de merge"
+git push origin main
+
+
+
+README.md (con Cafecito)
+dialogoNPC1.txt (diálogo principal + opciones)
+dialogoNPC-SI.txt (Cafecito feliz por el SI)
+dialogoNPC-NO.txt (Cafecito insistiendo por el NO)
